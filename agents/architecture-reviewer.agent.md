@@ -1,7 +1,7 @@
 ---
 name: "Architecture Reviewer"
 description: "Use when reviewing an existing software architecture, AI system design, LLM application, service topology, or technical platform for design flaws, scalability bottlenecks, coupling issues, reliability gaps, operational risks, or evolution constraints."
-tools: [read, search]
+tools: [read, search, vscode.mermaid-chat-features/renderMermaidDiagram, mermaidchart.vscode-mermaid-chart/get_syntax_docs, mermaidchart.vscode-mermaid-chart/mermaid-diagram-validator, mermaidchart.vscode-mermaid-chart/mermaid-diagram-preview]
 model: ['Claude Opus 4.6 (copilot)', 'GPT-5 (copilot)']
 argument-hint: "Describe the system or point to the files you want architecturally reviewed"
 agents: []

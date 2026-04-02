@@ -1,0 +1,11 @@
+# Ignore everything by default
+*
+
+# Allow agents and prompts directories
+!agents/
+!agents/**
+!prompts/
+!prompts/**
+
+# Allow this file itself
+!.gitignore
